@@ -37,16 +37,16 @@
         <p><b>li</b> Child of '<b>ol</b>' and '<b>ul</b>' for creating list items</p>
 
         <h3>ol 'Ordered / Numbered' lists</h3>
-        <b>ol</b> adds an '<b>ordered list</b>' with <b>numbers</b> instead of bullets</p>
+        <p><b>ol</b> adds an '<b>ordered list</b>' with <b>numbers</b> instead of bullets</p>
         <ol>
             <li>Item</li>
             <li>Another Item</li>
-            <li>Another Item</li>
-                <ul>
+            <li>Another Item <!-- Note there is no closing tag here -->
+                <ol>
                     <li>List can also be added inside lists</li>
                     <li>To be used as a child of the level above</li>
                     <li><b>This is an unordered list</b> within an ordered list</li>
-                </ul>
+                </ol>
             <li>etc</li>
         </ol>
 
